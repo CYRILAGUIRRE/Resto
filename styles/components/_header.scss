@@ -1,0 +1,62 @@
+header {
+  height: 100vh;
+  background: url(../../assets/img/bg-slider-06.jpg) center/cover;
+  padding: 1.5rem 3rem;
+  color: #eee;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    .logo {
+      font-family: "allura";
+      font-weight: 100;
+      font-size: 2rem;
+      display: flex;
+      text-align: left;
+      width: 10%;
+    }
+    ul {
+      display: flex;
+      width: 80%;
+      justify-content: space-around;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      padding: 0 2rem;
+    }
+    .nav-icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 8%;
+      font-style: 0.8em;
+    }
+  }
+  .header-text {
+    padding-top: 5.5rem;
+    h1 {
+      font-size: 3.2rem;
+      letter-spacing: 0.7rem;
+      margin-top: -2rem;
+      font-family: "poppins";
+      text-transform: uppercase;
+    }
+    h2 {
+      font-family: "allura";
+      font-size: 3.5rem;
+      font-weight: 200;
+      padding-top: 2.8rem;
+      color: rgb(182, 100, 7);
+    }
+    img {
+      height: 40px;
+      margin: 50px 0;
+    }
+    h6 {
+      font-size: 0.8rem;
+      letter-spacing: 6px;
+      font-weight: 200;
+    }
+  }
+}
