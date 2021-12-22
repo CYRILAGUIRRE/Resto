@@ -59,4 +59,14 @@ header {
       font-weight: 200;
     }
   }
+  @media screen and (max-width: 690px) {
+    nav {
+      ul {
+        display: none;
+      }
+      .nav-icons {
+        width: 30%;
+      }
+    }
+  }
 }

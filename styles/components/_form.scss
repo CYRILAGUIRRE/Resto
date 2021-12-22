@@ -5,7 +5,7 @@
 
   .form-content {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 1fr;
     background: rgb(223, 227, 230);
     max-width: 1050px;
     margin: 0 auto;
@@ -59,7 +59,7 @@
         color: rgb(26, 23, 23);
         margin-top: -1.2rem;
         font-family: "poppins";
-        font-size: 1.8rem;
+        font-size: 1.7rem;
       }
       img {
         margin: 1.5rem;
@@ -78,6 +78,10 @@
           border: none;
           border-bottom: 1px solid grey;
         }
+        @media screen and (max-width: 940px) {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: repeat(3, 1fr);
+        }
       }
       button {
         border: none;
@@ -88,6 +92,13 @@
         letter-spacing: 4px;
         font-weight: 500;
       }
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    .form-content {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
     }
   }
 }

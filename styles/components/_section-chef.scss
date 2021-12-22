@@ -44,4 +44,11 @@
   .img-chef {
     background: url(../../assets/img/store-01.jpg) center/cover;
   }
+  @media screen and (max-width: 690px) {
+    display: block;
+
+    .img-chef {
+      display: none;
+    }
+  }
 }

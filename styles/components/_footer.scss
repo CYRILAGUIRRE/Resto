@@ -33,29 +33,46 @@ footer {
       display: grid;
       grid-template-rows: 1fr 1fr;
 
-      h3 {
-        font-size: 0.85rem;
+      @media screen and (max-width: 690px) {
+        padding-left: 1rem;
       }
+    }
+    h3 {
+      font-size: 0.85rem;
+    }
 
-      .newsletter {
-        input {
-          margin-top: 1rem;
-          background: none;
-          border: 1px solid rgba(166, 111, 69, 0.151);
-          padding: 7px 13px;
-          width: 250px;
+    .newsletter {
+      input {
+        margin-top: 1rem;
+        background: none;
+        border: 1px solid rgba(166, 111, 69, 0.151);
+        padding: 7px 13px;
+        width: 250px;
+
+        @media screen and (max-width: 690px) {
+          width: 90px;
         }
       }
-      .follow-us {
-        display: flex;
-        margin-top: 3rem;
+    }
+    .follow-us {
+      display: flex;
+      margin-top: 3rem;
 
-        ul {
-          display: flex;
-          width: 200px;
-          justify-content: space-around;
-          color: rgba(94, 89, 86, 0.726);
-          font-size: 0.9rem;
+      @media screen and (max-width: 690px) {
+        display: block;
+      }
+
+      ul {
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        color: rgba(94, 89, 86, 0.726);
+        font-size: 0.9rem;
+
+        @media screen and (max-width: 690px) {
+          justify-content: space-between;
+          width: 120px;
+          margin-top: 0.8rem;
         }
       }
     }

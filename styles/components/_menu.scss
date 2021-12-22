@@ -91,4 +91,15 @@
       font-size: 1.1rem;
     }
   }
+  @media screen and (max-width: 860px) {
+    .plats {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat (8, 1fr);
+    }
+  }
+  @media screen and (max-width: 690px) {
+    ul {
+      display: none;
+    }
+  }
 }
